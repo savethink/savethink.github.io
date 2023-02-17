@@ -1,11 +1,11 @@
 const srcs = [
-  "https://cos.zhangyujie.top/ju.mp4",
-  "https://cos.zhangyujie.top/ju2.mp4",
-  "https://cos.zhangyujie.top/lin.mp4",
+  "https://savethink.github.io/source/1.mp4",
+  "https://savethink.github.io/source/2.mp4",
+  "https://savethink.github.io/source/3.mp4",
 ];
 function changeVal() {
-  var voice = document.querySelector("#voice");
-  var video = document.querySelector("#sp");
+  let voice = document.querySelector("#voice");
+  let video = document.querySelector("#sp");
   if (video.muted) {
     video.muted = false;
     voice.setAttribute("src", "./public/open.png");
@@ -16,8 +16,8 @@ function changeVal() {
 }
 //播放暂停
 function ispaly() {
-  var bofang = document.querySelector("#bofang");
-  var video = document.querySelector("#sp");
+  let bofang = document.querySelector("#bofang");
+  let video = document.querySelector("#sp");
   if (video.paused) {
     bofang.setAttribute("src", "./public/play.png");
     video.play();
@@ -28,10 +28,10 @@ function ispaly() {
 }
 //切换
 function nextPaly() {
-  var bofang = document.querySelector("#bofang");
-  var video = document.querySelector("#sp");
-  var src = video.src;
-  var index = srcs.indexOf(src);
+  let bofang = document.querySelector("#bofang");
+  let video = document.querySelector("#sp");
+  let src = video.src;
+  let index = srcs.indexOf(src);
   if (index == srcs.length - 1) {
     video.src = srcs[0];
   } else {
