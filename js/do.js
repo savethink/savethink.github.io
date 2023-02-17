@@ -1,7 +1,7 @@
 const srcs = [
-  "https://savethink.github.io/source/1.mp4",
-  "https://savethink.github.io/source/2.mp4",
-  "https://savethink.github.io/source/3.mp4",
+  "https://savethink.github.io/source/video/1.mp4",
+  "https://savethink.github.io/source/video/2.mp4",
+  "https://savethink.github.io/source/video/3.mp4",
 ];
 function changeVal() {
   let voice = document.querySelector("#voice");
