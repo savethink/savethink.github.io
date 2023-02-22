@@ -1,0 +1,21 @@
+.web-video {
+  object-fit: cover;
+}
+@media (max-width: 450px) {
+  .web-video {
+    display: none;
+  }
+  .phone-class {
+    display: block !important;
+    background-size: 1500px auto !important;
+    width: 1500px !important;
+  }
+  .ival {
+    display: none;
+  }
+}
+
+.ival {
+  height: 25px;
+  width: auto;
+}
