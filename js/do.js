@@ -1,7 +1,7 @@
 const srcs = [
-  "https://savethink0711.gitee.io/source/video/1.mp4",
-  "https://savethink0711.gitee.io/source/video/2.mp4",
-  "https://savethink0711.gitee.io/source/video/3.mp4",
+  "https://savethink0711.gitee.io/source/video/1.avi",
+  "https://savethink0711.gitee.io/source/video/2.avi",
+  "https://savethink0711.gitee.io/source/video/3.avi",
 ];
 function changeVal() {
   let voice = document.querySelector("#voice");
